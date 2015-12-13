@@ -1,6 +1,6 @@
 <h3>Java implementation usage:</h3>
 
-To start the server: <code>java -jar tftp-java.jar</code> <br>
+To start the server: <code>java -jar tftp.jar</code> <br>
 To stop serving: Hit 'q' followed by enter on cmd
 
 <b>To run tests with multiple client connections:</b> <br>
