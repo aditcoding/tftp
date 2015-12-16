@@ -14,9 +14,18 @@ Received files are placed with .recv extension
 
 The python script creates multiple threads and just invokes the linux tftp client (tftp-hpa version 5.2)
 
+<h3>Go implementation usage:</h3>
+
+Note: This is my first ever Go program. I tried to follow conventions as far as possible. Please excuse if it is not the most efficient Go code <br>
+
+Get TFTPServer.go from github and just install it with any package name you like for e.g: tftp<br>
+Once installed, run <code>tftp</code> or <code>tftp -port <i>portNum</i></code> <br>
+You can use the same tester.py for testing this implementation too
+
 <b>My test env:</b>
 - Two ubuntu 14.04 LTS machines
 - java 1.8
+- go version go1.2.1
 - python 2.7
 - tftp-hpa 5.2, without readline (for client)
 
@@ -31,11 +40,3 @@ The python script creates multiple threads and just invokes the linux tftp clien
 - Ability to pick a specific port - currently randomly chosen
 - Serves only text files for now - all formats in the future
 - Better logging and exception handling
-
-<h3>Go implementation usage:</h3>
-
-Note: This is my first ever Go program. I tried to follow conventions as far as possible. Please excuse if its not the most efficient Go code <br>
-
-Get TFTPServer.go from github and just install it with any package name you like for e.g: tftp<br>
-Once installed, run tftp or tftp -port <portNum> <br>
-You can use the same tester.py for testing this implementation too
