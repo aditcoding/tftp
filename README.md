@@ -34,4 +34,8 @@ The python script creates multiple threads and just invokes the linux tftp clien
 
 <h3>Go implementation usage:</h3>
 
-<code> go get install 
+Note: This is my first ever Go program. I tried to follow conventions as far as possible. Please excuse if its not the most efficient Go code <br>
+
+Get TFTPServer.go from github and just install it with any package name you like for e.g: tftp<br>
+Once installed, run tftp or tftp -port <portNum> <br>
+You can use the same tester.py for testing this implementation too
