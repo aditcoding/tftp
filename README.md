@@ -4,6 +4,7 @@ To start the server: <code>java -jar tftp.jar</code> <br>
 To stop serving: Hit 'q' followed by enter on cmd
 
 <b>To run tests with multiple client connections:</b> <br>
+(an existing tftp-hpa installion is required)
 <code>python tester.py<i> host  port  dir  filenames</i></code> where <br>
 <i>host</i> is the server address,<br>
 <i>port</i> is the server port,<br>
@@ -30,3 +31,7 @@ The python script creates multiple threads and just invokes the linux tftp clien
 - Ability to pick a specific port - currently randomly chosen
 - Serves only text files for now - all formats in the future
 - Better logging and exception handling
+
+<h3>Go implementation usage:</h3>
+
+<code> go get install 
